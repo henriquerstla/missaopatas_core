@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-texto text-escuro bg-principal antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-titulo tracking-wide;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
